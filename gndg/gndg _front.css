@@ -2,6 +2,7 @@ h1{
     font-family: sans-serif;
     text-shadow: 1px;
     font-size: 35px;
+    text-align: center;
 }
 .row {
     width: auto;
@@ -101,7 +102,7 @@ background-color: rgba(0,200,255,0.15);
     background-color: rgba(0,200,255,0.15);
 }
 .annou{
-    height: 104%;
+    height: 100%;
     margin-top: 0.75%;
     margin-left: 70%;
     width: 30%;
@@ -135,4 +136,72 @@ h3{
 .align-img2{
     margin-top: 1%;
     
+}
+.iconani-1{
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: 1;
+}
+.iconani-2{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+}
+a:hover{
+    color: skyblue;
+}
+a { font-family: roboto;
+    text-decoration: none;
+    color: black;
+    align-content: center;
+    margin-left: 1%;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin-top: 10%;
+    font-size: 43px;
+    padding: 0;
+    
+}
+li a.active {
+    background-color: rgba(0,200,255,1);
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(0,200,255,.35);
+    color: white;
+}
+
+li{
+    margin: 3%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:10%;
+   width:100%;
+   background:rgba(0,200,255,0.15);
 }
